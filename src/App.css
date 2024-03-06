@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("https://garden.spoonflower.com/c/2870692/p/f/m/NkO8q9DNIkU6o1M2-8smM-Af-vindyOQ36_YX_U-Ol7FU6J2C17ofKsTZKY/solid%20neutral%20dark%20grey%20(555555).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body,
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.flash_card {
+  font-size: 24px;
+  width: 500px;
+  height: 250px;
+  border: 4px solid rgb(237, 171, 171);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flash_card.front {
+  background-color: rgb(147, 210, 233);
+  color: rgb(42, 7, 7);
+}
+
+.flash_card.back {
+  background-color: rgb(196, 195, 197);
+}
+
+.next-card-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #3b96af;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.next-card-btn:hover {
+  background-color: #3b96af;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.user-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-message {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.correct {
+  color: rgb(12, 255, 12);
+}
+
+.incorrect {
+  color: red;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
